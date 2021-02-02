@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.head_calendar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    span{
+        font-size: 30px;
+    }
+}
+
+$Border_table : 1px solid red;
+
+
+.calendar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+    table{
+        width: 90%;
+        border:$Border_table;
+        tr{
+            border:$Border_table;
+            border-collapse: collapse;
+            th{
+                border: $Border_table;
+                border-collapse: collapse;
+            }
+        }
+    }
+}
