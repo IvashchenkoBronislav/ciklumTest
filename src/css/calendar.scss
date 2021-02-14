@@ -51,6 +51,8 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        position: relative;
+        bottom: -80px;
     }
 
     button{
@@ -69,5 +71,13 @@ body{
 .modail__act{
     top:20% !important;
     
+}
+
+#text{
+    font-size: 20px;
+    font-weight:800;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
 }
 
