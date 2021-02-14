@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Event+</title>
+    <link rel="stylesheet" href="../src/css/newEvent.css">
+<script defer src="main.bundle.js"></script></head>
+<body>
+    <div class="error"></div>
+    <div class="newEvent">
+        
+        <div class="newEvent__neme">
+            <span>Name of the event</span>
+            <input type="text" placeholder="Neme of event" id="imputName">
+        </div>
+        <div class="newEvent__parti">
+            <span>Participants:</span> 
+            <div class="chosen_parti">
+                <div class="parti_on">
+                    <div class="select"></div>
+                    <ul class="sel">
+                        <li>Olga</li>
+                        <li>Alex</li>
+                        <li>Deni</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="newEvent__day">
+            <span>Day:</span>
+            <select name="day_week" id="day_week">
+                <option value="mon">Monday</option>
+                <option value="tue">Tuesday</option>
+                <option value="wed">Wednesday</option>
+                <option value="thu">Thursday</option>
+                <option value="fri">Friday</option>
+            </select>
+        </div>
+        <div class="newEvent__time">
+            <span>Time:</span>
+            <select name="time_event" id="time_event">
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+                <option value="13">13:00</option>
+                <option value="14">14:00</option>
+                <option value="15">15:00</option>
+                <option value="16">16:00</option>
+                <option value="17">17:00</option>
+                <option value="18">18:00</option>
+            </select>
+        </div>
+    </div>
+    <div class="newEvent__button">
+        <button id="create">Create</button>
+        <button class="cancel">Cancel</button>
+    </div>
+</body>
+</html>

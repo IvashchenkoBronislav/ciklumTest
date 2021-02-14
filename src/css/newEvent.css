@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+}
+
+.newEvent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-top: 50px;
+}
+.newEvent span {
+  font-size: 24px;
+}
+
+#imputName {
+  font-size: 24px;
+}
+
+.newEvent__neme {
+  margin-bottom: 20px;
+}
+
+.parti_on {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 298px;
+  border: 1px solid black;
+  background-color: #ffffff;
+  z-index: 99;
+  margin-left: 90px;
+  cursor: pointer;
+}
+.parti_on span {
+  font-size: 24px;
+}
+
+.sel {
+  display: none;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  list-style-type: none;
+  position: absolute;
+  top: 30px;
+  font-size: 24px;
+}
+.sel li {
+  border: 1px solid black;
+  width: 50px;
+}
+.sel li:hover {
+  background: #797373;
+}
+
+.sel_div {
+  position: relative;
+  background: #9e9696;
+  width: 70px;
+  border: 1px solid black;
+}
+
+.act {
+  display: flex;
+}
+
+.newEvent__neme input {
+  margin-left: 30px;
+}
+
+.newEvent__day {
+  margin-bottom: 20px;
+}
+.newEvent__day select {
+  font-size: 24px;
+  margin-left: 160px;
+}
+
+.newEvent__time select {
+  font-size: 24px;
+  margin-left: 150px;
+}
+
+.sel_part {
+  display: flex;
+  flex-direction: row;
+}
+
+.newEvent__parti {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.select {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  font-size: 24px;
+}
+
+.right {
+  position: absolute;
+  transform: rotate(45deg);
+  font-weight: 900;
+  top: -7px;
+  right: -5px;
+  color: #a34c4c;
+}
+
+.left {
+  position: absolute;
+  transform: rotate(-45deg);
+  font-weight: 900;
+  top: -7px;
+  color: #a34c4c;
+}
+
+.newEvent__button {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 30%;
+  margin-top: 40px;
+}
+.newEvent__button button {
+  width: 200px;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.error__act {
+  top: 0 !important;
+}
+
+.error {
+  width: 100%;
+  background-color: #a34c4c;
+  height: 50px;
+  position: relative;
+  top: -70px;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=newEvent.css.map */

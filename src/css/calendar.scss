@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+
+.head_calendar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.calendar{
+    display: flex;
+    flex-direction: row;
+    width: 95%;    
+}
+
+.time{
+    width: 5%;
+    div{
+        height: 50px;
+        text-align: center;
+        border: 2px solid black;
+    }
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    width: calc(95%/5);
+    div{
+        height: 50px;
+        text-align: center;
+        border:2px solid black
+    }
+}
+
+.modail{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #3d696e;
+    width: 300px;
+    height: 200px;
+    border:1px solid black;
+    border-radius: 20px;
+    top:-500px;
+    left: 40%;
+    transition: 0.5s;
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    button{
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        outline: none;
+    }
+
+    button:hover{
+        background-color: #a7cddf;
+    }
+
+}
+
+.modail__act{
+    top:20% !important;
+    
+}
+

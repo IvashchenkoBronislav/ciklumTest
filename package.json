@@ -1,12 +1,12 @@
 {
-  "name": "ciklumTest",
+  "name": "ciklumtest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "start": "webpack serve"
+    "build": "webpack --watch",
+    "sass": " sass --watch ./src/css/:./src/css/"
   },
   "repository": {
     "type": "git",
@@ -20,22 +20,20 @@
   },
   "homepage": "https://github.com/IvashchenkoBronislav/ciklumTest#readme",
   "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/plugin-proposal-class-properties": "^7.12.1",
-    "@babel/preset-env": "^7.12.11",
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
     "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^5.0.0",
     "node-sass": "^5.0.0",
-    "postcss-loader": "^4.2.0",
+    "postcss-loader": "^5.0.0",
     "postcss-preset-env": "^6.7.0",
     "sass-loader": "^10.1.1",
     "style-loader": "^2.0.0",
-    "webpack": "^5.19.0",
-    "webpack-cli": "^4.4.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
   },
-  "dependencies": {
-    "clean-webpack-plugin": "^3.0.0",
-    "html-webpack-plugin": "^4.5.1"
-  }
+  "dependencies": {}
 }
